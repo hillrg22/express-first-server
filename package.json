@@ -1,0 +1,23 @@
+{
+  "name": "express-first-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hillrg22/express-first-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hillrg22/express-first-server/issues"
+  },
+  "homepage": "https://github.com/hillrg22/express-first-server#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
