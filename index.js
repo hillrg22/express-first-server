@@ -16,3 +16,8 @@ app.listen(port,() =>{
 app.get('/', (req,res,next) =>{
   res.send('Hi there')
 })
+
+
+app.get('/', (req,res,next) =>{
+  res.json({people})
+})
