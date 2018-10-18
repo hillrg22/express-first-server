@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const people = require ('./people')
+const people = require ('./people.json')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 
@@ -13,9 +13,9 @@ app.listen(port,() =>{
 })
 
 
-app.get('/', (req,res,next) =>{
-  res.send('Hi there')
-})
+// app.get('/', (req,res,next) =>{
+//   res.send('Hi there')
+// })
 
 
 app.get('/', (req,res,next) =>{
